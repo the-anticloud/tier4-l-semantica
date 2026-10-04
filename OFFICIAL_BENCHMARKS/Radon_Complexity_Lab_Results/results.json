@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_SEMANTICA",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.9204771371769382
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.9204771371769382,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_SEMANTICA\\UPSTREAM\\symai\\components.py\n    M 354:4 MetadataTracker._accumulate_completion_token_details - C (18)\n    M 568:4 DynamicEngine._create_engine_instance - C (11)\n    M 720:4 ChonkieChunker._resolve_chunker - B (9)\n    M 121:4 FileReader.forward - B (8)\n    M 279:4 MetadataTracker.__str__ - B (7)\n    M 313:4 MetadataTracker._trace_calls - B (7)\n    M 253:4 PrimitiveDisabler._extract_primitives - B (6)\n    M 486:4 MetadataTracker._track_parallel_usage_items - B (6)\n    C 52:0 FileReader - A (5)\n    M 66:4 FileReader.get_files - A (5)\n    C 270:0 MetadataTracker - A (5)\n    M 334:4 MetadataTracker._accumulate_usage_record - A (5)\n    C 222:0 PrimitiveDisabler - A (4)\n    M 241:4 PrimitiveDisabler._disable_primitives - A (4)\n    C 508:0 DynamicEngine - A (4)\n    C 688:0 ChonkieChunker - A (4)\n    F 618:0 _lazy_import_chonkie - A (3)\n    F 673:0 _get_chunker_mapping - A (3)\n    F 680:0 _is_chonkie_available - A (3)\n    C 28:0 Interface - A (3)\n    M 54:4 FileReader.exists - A (3)\n    M 105:4 FileReader.integrity_check - A (3)\n    C 140:0 Function - A (3)\n    M 175:4 Function.prompt - A (3)\n    M 228:4 PrimitiveDisabler.__enter__ - A (3)\n    M 248:4 PrimitiveDisabler._enable_primitives - A (3)\n    M 554:4 DynamicEngine.__exit__ - A (3)\n    M 701:4 ChonkieChunker.forward - A (3)\n    M 710:4 ChonkieChunker._get_tokenizer - A (3)\n    M 35:4 Interface.__new__ - A (2)\n    M 44:4 Interface.load_module_class - A (2)\n    ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_SEMANTICA\\UPSTREAM\\symai\\components.py - B (16.07)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_SEMANTICA\\UPSTREAM\\symai\\context.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_SEMANTICA\\UPSTREAM\\symai\\core.py - C (0.44)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_SEMANTICA\\UPSTREAM\\symai\\functional.py - A (27.38)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_SEMANTICA\\"
+  }
+}

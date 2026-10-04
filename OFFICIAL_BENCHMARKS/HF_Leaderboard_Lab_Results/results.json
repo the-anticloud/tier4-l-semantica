@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_SEMANTICA",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "ExtensityAI/symbolicai",
+  "commit": "44d13560e4f1",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 46.22,
+      "min": 39.54,
+      "max": 54.5,
+      "all": [
+        54.5,
+        43.02,
+        45.01,
+        49.02,
+        39.54
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_SEMANTICA (ExtensityAI/symbolicai) \u2014 288 files, 49833 source lines, licence BSD-3-Clause, primary language ['Python']",
+      "token_count": 40,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "semantic",
+        "##a",
+        "(",
+        "ex",
+        "##tens",
+        "##ity",
+        "##ai",
+        "/",
+        "symbolic",
+        "##ai",
+        ")",
+        "\u2014",
+        "288",
+        "files",
+        ",",
+        "49",
+        "##8"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5841,
+      "classification_latency_ms": 72.51,
+      "status": "PASS"
+    }
+  }
+}

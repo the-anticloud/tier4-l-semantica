@@ -1,0 +1,21 @@
+{
+  "benchmark": "PAX_Results_Lab_Results",
+  "project": "L_SEMANTICA",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 2987456924,
+    "simulated_inference_latency_ms": 27.81,
+    "simulated_throughput_samples_per_sec": 36.0,
+    "simulated_accuracy": 0.8295,
+    "simulated_avg_token_count": 49,
+    "simulated_memory_mb": 19.0,
+    "simulation_basis": {
+      "source_lines": 49833,
+      "tracked_files": 288,
+      "has_tests": true,
+      "has_ci": false,
+      "size_mb": 22.69
+    }
+  }
+}
